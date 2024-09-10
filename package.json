@@ -1,0 +1,36 @@
+{
+  "name": "react-protected-app",
+  "version": "1.0.0",
+  "description": "Basic auth like protection for react application.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "protect-credential": "./dist/encode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadZeeshanYousaf/react-protected-app.git"
+  },
+  "keywords": [
+    "react",
+    "basic-auth"
+  ],
+  "author": "MuhammadZeeshanYousaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuhammadZeeshanYousaf/react-protected-app/issues"
+  },
+  "homepage": "https://github.com/MuhammadZeeshanYousaf/react-protected-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
