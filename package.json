@@ -16,7 +16,8 @@
   },
   "keywords": [
     "react",
-    "basic-auth"
+    "basic-auth",
+    "password-protect"
   ],
   "author": "MuhammadZeeshanYousaf",
   "license": "MIT",
